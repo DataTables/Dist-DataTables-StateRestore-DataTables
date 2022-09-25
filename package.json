@@ -4,7 +4,7 @@
     "main": "js/stateRestore.dataTables.js",
     "style": "css/stateRestore.dataTables.css",
     "types": "./types/stateRestore.dataTables.d.ts",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.1.0",
-        "datatables.net-dt": ">=1.11.5",
+        "datatables.net-staterestore": ">=1.1.1",
+        "datatables.net-dt": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
