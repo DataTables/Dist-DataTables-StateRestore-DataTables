@@ -1,0 +1,1 @@
+import DataTable from"";export default DataTable;
