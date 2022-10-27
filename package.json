@@ -4,7 +4,7 @@
     "main": "js/stateRestore.dataTables.js",
     "module": "js/stateRestore.dataTables.mjs",
     "style": "css/stateRestore.dataTables.css",
-    "types": "./types/stateRestore.dataTables.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.1.1",
     "files": [
         "css/**/*.css",
