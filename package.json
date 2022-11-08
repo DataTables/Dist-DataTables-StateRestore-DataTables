@@ -5,7 +5,7 @@
     "module": "js/stateRestore.dataTables.mjs",
     "style": "css/stateRestore.dataTables.css",
     "types": "./types/types.d.ts",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "StateRestore",
- "stateSave",
- "state",
-"reload",
-                "Datatables",
+        "stateSave",
+        "state",
+        "reload",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
