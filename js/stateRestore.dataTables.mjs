@@ -2,7 +2,9 @@
  * © SpryMedia Ltd - datatables.net/license
  */
 
-import DataTable from '';
+import $ from 'jquery';
+import DataTable from 'datatables.net-dt';
+import StateRestore from 'datatables.net-staterestore';
 
 
 
