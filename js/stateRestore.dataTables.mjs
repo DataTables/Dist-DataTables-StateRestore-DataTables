@@ -8,5 +8,4 @@ import StateRestore from 'datatables.net-staterestore';
 
 
 
-
 export default DataTable;
