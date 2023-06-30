@@ -4,7 +4,7 @@
     "main": "js/stateRestore.dataTables.js",
     "module": "js/stateRestore.dataTables.mjs",
     "style": "css/stateRestore.dataTables.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/stateRestore.dataTables.d.ts",
     "version": "1.2.2",
     "files": [
         "css/**/*.css",
@@ -14,18 +14,18 @@
     ],
     "keywords": [
         "StateRestore",
-        "stateSave",
-        "state",
-        "reload",
-        "Datatables",
+ "stateSave",
+ "state",
+"reload",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.1.1",
-        "datatables.net-dt": ">=1.12.1",
+        "datatables.net-staterestore": ">=1.2.2",
+        "datatables.net-dt": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
