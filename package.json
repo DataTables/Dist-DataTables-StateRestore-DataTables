@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-staterestore-dt",
     "description": "StateRestore for DataTables with styling for [DataTables](https://datatables.net/)",
-    "main": "js/stateRestore.dataTables.js",
-    "module": "js/stateRestore.dataTables.mjs",
-    "style": "css/stateRestore.dataTables.css",
+    "main": "./js/stateRestore.dataTables.js",
+    "module": "./js/stateRestore.dataTables.mjs",
+    "style": "./css/stateRestore.dataTables.css",
     "types": "./types/stateRestore.dataTables.d.ts",
     "version": "2.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "StateRestore",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/StateRestore.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/stateRestore.dataTables.d.ts",
+            "import": "./js/stateRestore.dataTables.mjs",
+            "default": "./js/stateRestore.dataTables.mjs",
+            "require": "./js/stateRestore.dataTables.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/stateRestore.dataTables.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
