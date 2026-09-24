@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/stateRestore.dataTables.d.ts",
+            "style": "./css/stateRestore.dataTables.css",
             "import": "./js/stateRestore.dataTables.mjs",
-            "default": "./js/stateRestore.dataTables.mjs",
-            "require": "./js/stateRestore.dataTables.js"
+            "require": "./js/stateRestore.dataTables.js",
+            "default": "./js/stateRestore.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
